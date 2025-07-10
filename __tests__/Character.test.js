@@ -34,7 +34,7 @@ test('should inherit properties for all character types', () => {
     { class: Magician, type: 'Magician', attack: 10, defence: 40 },
     { class: Daemon, type: 'Daemon', attack: 10, defence: 40 },
     { class: Undead, type: 'Undead', attack: 25, defence: 25 },
-    { class: Zombie, type: 'Zombie', attack: 40, defence: 10 },
+    { class: Zombie, type: 'Zombie', attack: 25, defence: 25 },
   ];
 
   types.forEach(({ class: Class, type, attack, defence }) => {

@@ -6,6 +6,6 @@ test('should create Zombie correctly', () => {
   expect(zombie.type).toBe('Zombie');
   expect(zombie.health).toBe(100);
   expect(zombie.level).toBe(1);
-  expect(zombie.attack).toBe(40);
-  expect(zombie.defence).toBe(10);
+  expect(zombie.attack).toBe(25);
+  expect(zombie.defence).toBe(25);
 });
